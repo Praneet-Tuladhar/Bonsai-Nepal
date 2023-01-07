@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <title>BONSAI NEPAL</title>
+    <style>
+        body {
+            background-image: url(../images/bg5-01.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+
+        form {
+            display: block;
+            margin: 0px auto;
+            max-width: 500px;
+            min-width: 300px;
+            width: 60vw;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 25px 0 0 0;
+        }
+
+        label {
+            display: block;
+            margin: 0.5rem 0;
+        }
+
+        input {
+            margin: 10px 0 0 0;
+            width: 100%;
+            padding: 0;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-color: rgba(0, 0, 0, 0.3);
+        }
+
+        input {
+            height: 2em;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 15px;
+            font-style: italic;
+        }
+
+        fieldset {
+            border: 0;
+        }
+
+        button {
+            margin: 10px 40%;
+            width: 30%;
+            padding: 0;
+            padding-top: 2px;
+            height: 2em;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-color: rgba(0, 0, 0, 0.8);
+            color: black;
+        }
+
+        hr {
+            width: 32rem;
+            margin: 1rem auto 0.2rem auto;
+        }
+        .createacc{
+            float: left;
+            text-decoration: none;
+            color: #e51d19;
+            
+        }
+        .createacc:hover{
+            
+            
+            color: #333333;
+        }
+    </style>
+    <script src="../js/javascript.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="image">
+            <a href="../index.html"><img class="logo" src="../images/logo.png" alt="logo"></a>
+        </div>
+        <h1
+            style="margin-right:8rem;padding-top: 3rem;padding-left: 2rem;color: white; font-size: 3rem; width: max-content; height: max-content;font-family: 'Proxima Nova'">
+            BONSAI NEPAL</h1>
+        <div class="navitems">
+            <table>
+                <ul>
+                    <li><a href="login.html" class="active">Login</a></li>
+                    <li><a href="refernces.html">References</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="../index.html" >Home</a></li>
+                </ul>
+            </table>
+        </div>
+    </div>
+    <div class="from">
+    <h2 id="title">LOGIN</h2>
+    <p id="#description">Thank you for choosing us</p>
+    <hr>
+    <form id="login-form">
+        <fieldset>
+            <label id="email-label">
+                Email:
+                <input id="email" type="email" placeholder="  Email">
+            </label>
+            <label id="pass-label">
+                Password:
+                <input id="pass" type="password" placeholder="  Password">
+            </label>
+            <a href="createacc.html" class="createacc"><p>Create account</p> </a>
+            <button type="submit" id="submit" onclick="formvali();">Submit</button>
+        </fieldset>
+    </form>
+    
+</div>
+</body>
+
+</html>

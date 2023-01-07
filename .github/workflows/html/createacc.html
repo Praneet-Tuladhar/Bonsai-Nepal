@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <title>BONSAI NEPAL</title>
+    <style>
+        body {
+            background-image: url(../images/bg5-01.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+
+        form {
+            display: block;
+            margin: 0px auto;
+            max-width: 500px;
+            min-width: 300px;
+            width: 60vw;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 15px 0 0 0;
+        }
+
+        label {
+            display: block;
+            margin: 0.5rem 0;
+        }
+
+        input,
+        textarea,
+        select {
+            margin: 5px 0 0 0;
+            width: 100%;
+            padding: 0;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-color: rgba(0, 0, 0, 0.3);
+            color: black;
+        }
+
+        input,
+        select {
+            height: 2em;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        textarea {
+            height: 3rem;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 15px;
+            font-style: italic;
+        }
+
+        fieldset {
+            border: 0;
+        }
+
+        button {
+            margin: 10px 40%;
+            width: 30%;
+            padding: 0;
+            height: 2em;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-color: rgba(0, 0, 0, 0.3);
+            color: #8e8e8e;
+        }
+
+        hr {
+            width: 32rem;
+            margin: 1rem auto 0.2rem auto;
+        }
+
+        .login {
+            float: left;
+            text-decoration: none;
+            color: #e51d19;
+
+        }
+
+        .login:hover {
+            color: #333333;
+        }
+    </style>
+    <script>
+        function formval() {
+            var a = document.getElementById("name").value;
+            var b = document.getElementById("email").value;
+            var c = document.getElementById("pass").value;
+            var d = document.getElementById("address").value;
+            var e = document.getElementById("number").value;
+            var f = document.getElementById("dropdown").value;
+            if (a == "" || b == "" || c == "" || d == "" || e == "" || f == "") {
+                alert("Please fill all the required informtion!");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="image">
+            <a href="../index.html"><img class="logo" src="../images/logo.png" alt="logo"></a>
+        </div>
+        <h1
+            style="margin-right:8rem;padding-top: 3rem;padding-left: 2rem;color: white; font-size: 3rem; width: max-content; height: max-content;font-family: 'Proxima Nova'">
+            BONSAI NEPAL</h1>
+        <div class="navitems">
+            <table>
+                <ul>
+                    <li><a href="login.html" class="active">Login</a></li>
+                    <li><a href="refernces.html">References</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </table>
+        </div>
+    </div>
+
+    <h2 id="title">Create Account</h2>
+    <hr>
+    <form id="create-form" onsubmit="formval();">
+        <fieldset>
+            <label id="name-label">
+                Enter your Name:
+                <input id="name" type="text" placeholder="  Name">
+            </label>
+            <label id="email-label">
+
+                Enter your Email:
+                <input id="email" type="email" placeholder="  Email">
+            </label>
+            <label id="pass-label">
+                Enter your Password:
+                <input id="pass" type="password" placeholder="  Password">
+            </label>
+            <label id="address-label">
+                Enter your Address:
+                <input id="address" type="text" placeholder="  Address">
+            </label>
+            <label id="number-label">
+                Enter your Mobile Number:
+                <input id="number" type="tel" placeholder="  Mobile Number">
+            </label>
+            <a href="login.html" class="login">
+                <p>Sign in</p>
+            </a>
+            <button type="submit" id="submit" value="send">Submit</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

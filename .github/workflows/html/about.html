@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <title>BONSAI NEPAL</title>
+    <style>
+        /* Style of body */
+        body {
+            font-family: sans-serif;
+            height: 10rem;
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        #aboutusfirst {
+            margin-top: 12rem;
+        }
+
+        .aboutus-main {
+            display: flex;
+            margin: 1rem 7rem;
+        }
+
+        .aboutus-details h1 {
+            padding-bottom: 5px;
+        }
+
+        .aboutus-details p {
+            padding-bottom: 5px;
+            padding-right: 30rem;
+            text-align: justify;
+        }
+
+        .aboutusimg img {
+            width: 250px;
+            height: 250px;
+            border-radius: 250px
+        }
+
+        .aboutus-details img {
+            height: 25px;
+            padding-right: 5px;
+        }
+
+        .aboutus-details {
+            height: 250px;
+            padding-top: 40px;
+            margin-left: 2rem;
+        }
+
+        .aboutus-main2 {
+            display: flex;
+            margin: 1rem 7rem;
+        }
+
+        .aboutus-details2 h1 {
+            padding-bottom: 5px;
+        }
+
+        .aboutus-details2 p {
+            padding-bottom: 5px;
+            padding-left: 30rem;
+            text-align: justify;
+        }
+
+        .aboutusimg2 img {
+            width: 250px;
+            height: 250px;
+            border-radius: 250px
+        }
+
+        .aboutus-details2 img {
+            height: 25px;
+            padding-right: 5px;
+
+        }
+
+        .iconcontainer {
+            margin-right: 29rem;
+        }
+
+        .aboutus-details2 {
+            height: 250px;
+            padding-top: 40px;
+            margin-right: 2rem;
+            text-align: right;
+
+        }
+
+        .feedback {
+            background-color: black;
+            padding-top: 2rem;
+            padding-left: 7rem;
+            color: white;
+            padding-bottom: 2rem;
+        }
+        .pt{
+            display: flex;
+            
+        }
+
+        label {
+            display: block;
+            margin: 0.5rem 0;
+        }
+
+        input {
+            margin: 10px 0 0 0;
+            width: 223.8px;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-color: rgba(0, 0, 0, 0.3);
+            height: 2em;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        textarea{
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-color: rgba(0, 0, 0, 0.3);
+        }
+        .pt2{
+            margin-left: 2rem;
+        }
+        button {
+            padding: 10px;
+            width: 5rem;
+            padding-top: 3px;
+            height: 2em;
+            text-align: center;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-color: rgba(0, 0, 0, 0.8);
+            color: black;
+        }
+    </style>
+    <script>
+        function formvali1() {
+            var a = document.getElementById("name").value;
+            var b = document.getElementById("email").value;
+            var c = document.getElementById("comment").value;
+            if (a == "" || b == "" || c == "") {
+                alert("Please fill all the required informtion!");
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="image">
+            <a href="../index.html"><img class="logo" src="../images/logo.png" alt="logo"></a>
+        </div>
+        <h1
+            style="margin-right:8rem;padding-top: 3rem;padding-left: 2rem;color: white; font-size: 3rem; width: max-content; height: max-content;font-family: 'Proxima Nova'">
+            BONSAI NEPAL</h1>
+
+        <div class="navitems">
+            <table>
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="refernces.html">References</a></li>
+                    <li><a href="about.html" class="active">About us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+            </table>
+        </div>
+    </div>
+    <div class="aboutus-main" id="aboutusfirst">
+        <div class="aboutusimg">
+            <img src="../images/praneet.jpg" alt="Praneet">
+        </div>
+        <div class="aboutus-details">
+            <h1>Praneet Tuladhar</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque earum suscipit dolorum iste ipsa ipsum
+                optio fugiat sed praesentium. Cumque assumenda maiores dolor et, natus officia nostrum soluta suscipit
+                ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eveniet facere atque
+                incidunt fugit, a nihil molestias eum, suscipit et expedita voluptatum aut! Modi, architecto harum
+                cumque unde cupiditate mollitia. Email: biq.praneet@gmail.com</p>
+            <a href="https://www.facebook.com/praneet.tuladhar/"><img src="../images/facebook.png" alt="fb_icon"></a>
+            <a href="https://www.instagram.com/praneet.yt/">
+                <img src="../images/insta.png" alt="insta_icon"></a>
+        </div>
+    </div>
+
+
+    <div class="aboutus-main2">
+        <div class="aboutus-details2">
+            <h1>Praneet Tuladhar</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque earum suscipit dolorum iste ipsa ipsum
+                optio fugiat sed praesentium. Cumque assumenda maiores dolor et, natus officia nostrum soluta suscipit
+                ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eveniet facere atque
+                incidunt fugit, a nihil molestias eum, suscipit et expedita voluptatum aut! Modi, architecto harum
+                cumque unde cupiditate mollitia. Email: biq.praneet@gmail.com</p>
+            <div class="iconcontainer">
+                <a href="https://www.facebook.com/praneet.tuladhar/"><img src="../images/facebook.png"
+                        alt="fb_icon"></a>
+                <a href="https://www.instagram.com/praneet.yt/">
+                    <img src="../images/insta.png" alt="insta_icon"></a>
+            </div>
+        </div>
+        <div class="aboutusimg2">
+            <img src="../images/praneet.jpg" alt="Praneet">
+        </div>
+    </div>
+
+    <div class="aboutus-main">
+        <div class="aboutusimg">
+            <img src="../images/praneet.jpg" alt="Praneet">
+        </div>
+        <div class="aboutus-details">
+            <h1>Praneet Tuladhar</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque earum suscipit dolorum iste ipsa ipsum
+                optio fugiat sed praesentium. Cumque assumenda maiores dolor et, natus officia nostrum soluta suscipit
+                ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eveniet facere atque
+                incidunt fugit, a nihil molestias eum, suscipit et expedita voluptatum aut! Modi, architecto harum
+                cumque unde cupiditate mollitia. Email: biq.praneet@gmail.com</p>
+            <a href="https://www.facebook.com/praneet.tuladhar/"><img src="../images/facebook.png" alt="fb_icon"></a>
+            <a href="https://www.instagram.com/praneet.yt/">
+                <img src="../images/insta.png" alt="insta_icon"></a>
+        </div>
+    </div>
+
+
+    <div class="aboutus-main2">
+        <div class="aboutus-details2">
+            <h1>Praneet Tuladhar</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque earum suscipit dolorum iste ipsa ipsum
+                optio fugiat sed praesentium. Cumque assumenda maiores dolor et, natus officia nostrum soluta suscipit
+                ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eveniet facere atque
+                incidunt fugit, a nihil molestias eum, suscipit et expedita voluptatum aut! Modi, architecto harum
+                cumque unde cupiditate mollitia. Email: biq.praneet@gmail.com</p>
+            <div class="iconcontainer">
+                <a href="https://www.facebook.com/praneet.tuladhar/"><img src="../images/facebook.png"
+                        alt="fb_icon"></a>
+                <a href="https://www.instagram.com/praneet.yt/">
+                    <img src="../images/insta.png" alt="insta_icon"></a>
+            </div>
+        </div>
+        <div class="aboutusimg2">
+            <img src="../images/praneet.jpg" alt="Praneet">
+        </div>
+    </div>
+
+    <div class="aboutus-main">
+        <div class="aboutusimg">
+            <img src="../images/praneet.jpg" alt="Praneet">
+        </div>
+        <div class="aboutus-details">
+            <h1>Praneet Tuladhar</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque earum suscipit dolorum iste ipsa ipsum
+                optio fugiat sed praesentium. Cumque assumenda maiores dolor et, natus officia nostrum soluta suscipit
+                ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eveniet facere atque
+                incidunt fugit, a nihil molestias eum, suscipit et expedita voluptatum aut! Modi, architecto harum
+                cumque unde cupiditate mollitia. Email: biq.praneet@gmail.com</p>
+            <a href="https://www.facebook.com/praneet.tuladhar/"><img src="../images/facebook.png" alt="fb_icon"></a>
+            <a href="https://www.instagram.com/praneet.yt/">
+                <img src="../images/insta.png" alt="insta_icon"></a>
+        </div>
+    </div>
+    <div class="feedback">
+        <h1>FEEDBACK:</h1>
+        <div class="pt">
+        <div class="pt1">
+        <label for="Name">  Name: <br>
+            <input type="text" name="Name" id="name" placeholder="  Name"></label>
+            <label for="email">  Email: <br>
+            <input type="Email" placeholder="  Email" id="Email"></label>
+        </div>
+        <div class="pt2">
+            <label for="comment">        Comment <br>
+        <textarea name="comment" cols="30" rows="8" placeholder="Comment" id="comment"></textarea></label>
+    </div>
+</div>
+        <button type="submit" id="submit" onclick="formvali1();">Submit</button>
+    </div>
+</body>
+
+</html>
